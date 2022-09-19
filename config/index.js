@@ -77,7 +77,7 @@ export const config = {
       openUrl: "http://authserver.cwnu.edu.cn/authserver/login?service=http%3A%2F%2Fehall.cwnu.edu.cn%2Flogin%3Fservice%3Dhttp%3A%2F%2Fehall.cwnu.edu.cn%2Fnew%2Findex.html",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
-        注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+//         注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
 //         {"type": "*生日", "name": "小学生", "year": "2003", "date": "03-02"},
         {"type": "生日", "name": "小学生", "year": "2003", "date": "03-02"},
         {"type": "节日", "name": "搭讪纪念日", "year": "2021", "date": "12-31"},
