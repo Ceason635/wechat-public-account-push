@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "jV_DSRcz9y_A5Xf28GxEyarbDks7hGAeg9FO_i80QCY",
+      useTemplateId: "GLDYYYjjBdM6kEUbn8kuE8-fv0lykf2Qmv0DgrXFL_M",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -100,7 +100,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "jV_DSRcz9y_A5Xf28GxEyarbDks7hGAeg9FO_i80QCY",
+      useTemplateId: "T2Ys0o7QKxuhJ2rjLq_cQm80kV7OfOLvPlgbHLGtdVw",
       // 所在省份
       province: "广东",
       // 所在城市
@@ -201,7 +201,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 3,
+  FESTIVALS_LIMIT: 2,
 
   /** 日期相关 */
 
@@ -211,7 +211,9 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
+    {"keyword": "birthday1", date: "2003-01-01"},
+    {"keyword": "love_day", date: "2003-03-02"},
+    {"keyword": "love_day", date: "2021-12-31"},
     // 结婚纪念日
     {"keyword": "marry_day", date: "2022-09-09"},
     // 退伍日
