@@ -38,7 +38,7 @@ export const config = {
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry: ture,
+    poetry: true,
 
     /** 星座运势 */
     horoscope: true,
