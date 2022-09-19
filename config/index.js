@@ -34,14 +34,14 @@ export const config = {
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
     // 朋友圈文案
-    momentCopyrighting: true,
+    momentCopyrighting: false,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry: true,
+    poetry: false,
 
     /** 星座运势 */
-    horoscope: true,
+    horoscope: false,
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "c2f2WcwCmd9dRGZQc9HGHvJKIb00X8Dppeh_h2dDvT4",
+      useTemplateId: "jatyb_9ZN7ELf5tc4FmPWki2iBbbMh7p2Gk351a0WLM",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -100,7 +100,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "c2f2WcwCmd9dRGZQc9HGHvJKIb00X8Dppeh_h2dDvT4",
+      useTemplateId: "jatyb_9ZN7ELf5tc4FmPWki2iBbbMh7p2Gk351a0WLM",
       // 所在省份
       province: "广东",
       // 所在城市
