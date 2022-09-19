@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "jatyb_9ZN7ELf5tc4FmPWki2iBbbMh7p2Gk351a0WLM",
+      useTemplateId: "7VdvWeyMPKCa0vuy4zLRvFz1BBOtbSmcaRFVxhYUmUg",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -83,7 +83,7 @@ export const config = {
         {"type": "节日", "name": "搭讪纪念日", "year": "2021", "date": "12-31"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "大哥", "year": "2003", "date": "01-01"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "12-31"},
+//         {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "12-31"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -100,7 +100,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "jatyb_9ZN7ELf5tc4FmPWki2iBbbMh7p2Gk351a0WLM",
+      useTemplateId: "7VdvWeyMPKCa0vuy4zLRvFz1BBOtbSmcaRFVxhYUmUg",
       // 所在省份
       province: "广东",
       // 所在城市
@@ -119,7 +119,7 @@ export const config = {
         {"type": "节日", "name": "搭讪纪念日", "year": "2021", "date": "12-31"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "大哥", "year": "2003", "date": "01-01"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "12-31"},
+//         {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "12-31"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -192,7 +192,7 @@ export const config = {
         {"type": "节日", "name": "搭讪纪念日", "year": "2021", "date": "12-31"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "大哥", "year": "2003", "date": "01-01"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "12-31"},
+//         {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "12-31"},
       ],
 
   /**
