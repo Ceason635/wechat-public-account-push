@@ -64,26 +64,26 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "52LPW5yzUUPeD44lzu1PrTZinYaPRit5HWdFfZWiK50",
+      useTemplateId: "K07So_Z2z4XqGNoAAfLmiAzRzFHEcjUNK47wpgua6d8",
       // 所在省份
       province: "四川",
       // 所在城市
       city: "成都",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '03-02',
-      birthday1:'03-02',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "http://authserver.cwnu.edu.cn/authserver/login?service=http%3A%2F%2Fehall.cwnu.edu.cn%2Flogin%3Fservice%3Dhttp%3A%2F%2Fehall.cwnu.edu.cn%2Fnew%2Findex.html",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-//         {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09"},
-//         {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+        注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+//         {"type": "*生日", "name": "小学生", "year": "2003", "date": "03-02"},
+        {"type": "生日", "name": "小学生", "year": "2003", "date": "03-02"},
+        {"type": "节日", "name": "搭讪纪念日", "year": "2021", "date": "12-31"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-//         {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-//         {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+        {"type": "生日", "name": "大哥", "year": "2003", "date": "01-01"},
+        {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "12-31"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -100,26 +100,26 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "52LPW5yzUUPeD44lzu1PrTZinYaPRit5HWdFfZWiK50",
+      useTemplateId: "K07So_Z2z4XqGNoAAfLmiAzRzFHEcjUNK47wpgua6d8",
       // 所在省份
       province: "广东",
       // 所在城市
       city: "肇庆",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '01-01',
-      birthday1:'01-01',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "http://authserver.cwnu.edu.cn/authserver/login?service=http%3A%2F%2Fehall.cwnu.edu.cn%2Flogin%3Fservice%3Dhttp%3A%2F%2Fehall.cwnu.edu.cn%2Fnew%2Findex.html",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-//         {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09"},
-//         {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+  festivals: [
+        注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+//         {"type": "*生日", "name": "小学生", "year": "2003", "date": "03-02"},
+        {"type": "生日", "name": "小学生", "year": "2003", "date": "03-02"},
+        {"type": "节日", "name": "搭讪纪念日", "year": "2021", "date": "12-31"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-//         {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-//         {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+        {"type": "生日", "name": "大哥", "year": "2003", "date": "01-01"},
+        {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "12-31"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -185,23 +185,22 @@ export const config = {
    * 删除isShowAge属性，也会不展示岁数
    * --- 是否展示周岁信息结束 ---
    */
-  FESTIVALS: [
-    // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "生日", "name": "小学生", "year": "2003", "date": "03-02", isShowAge: true},
-    {"type": "节日", "name": "搭讪纪念日", "year": "2021", "date": "12-31"},
-    // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "大哥", "year": "2003", "date": "01-01", isShowAge: true},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "12-31"},
-    // 你可以不断按格式往下增加
-    // ...
-  ],
+ festivals: [
+        注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+//         {"type": "*生日", "name": "小学生", "year": "2003", "date": "03-02"},
+        {"type": "生日", "name": "小学生", "year": "2003", "date": "03-02"},
+        {"type": "节日", "name": "搭讪纪念日", "year": "2021", "date": "12-31"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "大哥", "year": "2003", "date": "01-01"},
+        {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "12-31"},
+      ],
 
   /**
    * 限制重要节日的展示条目, 需要填写数字;
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 2,
+  FESTIVALS_LIMIT: 0,
 
   /** 日期相关 */
 
@@ -212,7 +211,7 @@ export const config = {
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
     {"keyword": "birthday1", date: "2003-01-01"},
-    {"keyword": "love_day", date: "2003-03-02"},
+    {"keyword": "birthday2", date: "2003-03-02"},
     {"keyword": "love_day", date: "2021-12-31"},
     // 结婚纪念日
     {"keyword": "marry_day", date: "2022-09-09"},
