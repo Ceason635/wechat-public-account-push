@@ -38,7 +38,7 @@ export const config = {
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry: true,
+    poetry: false,
 
     /** 星座运势 */
     horoscope: false,
@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "bda8NYJeNH4GTgvWqwZxdM_O7hnS_mjLGKgzIScocvM",
+      useTemplateId: "6uVYCm6Krg0_vXLTks5fztIWoEa-mlCbpbY3pBH-we4",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -100,7 +100,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "bda8NYJeNH4GTgvWqwZxdM_O7hnS_mjLGKgzIScocvM",
+      useTemplateId: "6uVYCm6Krg0_vXLTks5fztIWoEa-mlCbpbY3pBH-we4",
       // 所在省份
       province: "广东",
       // 所在城市
