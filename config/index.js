@@ -45,6 +45,8 @@ export const USER_CONFIG = {
     
     /** 生日消息和节日消息 */
     birthdayMessage: true,
+     // 学生课表
+    studentCourses: true,
   },
   
   /** 每日一言 */
