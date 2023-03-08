@@ -34,7 +34,7 @@ export const config = {
     // 土味情话(彩虹屁)
     earthyLoveWords: false,
     // 朋友圈文案
-    momentCopyrighting: false,
+    momentCopyrighting: true,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
@@ -51,7 +51,7 @@ export const config = {
 
   // 每日一言的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: "",
+  LITERARY_PREFERENCE: "网络",
   
 
   /**
@@ -65,7 +65,7 @@ export const config = {
       id: "o97vH5rsEP87KaXC7EbmWJoI-RK4",
 //       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "RkFtCGfcKBEunWPJb3ZmEmCnRfSHGeZbzERVb73_4ZI",
+      useTemplateId: "	z3dMWHxUu3YW3IFd6M7w0ElHuQIRmtlL7F5CeaM9H1I",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -80,8 +80,8 @@ export const config = {
       festivals: [
 //         注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
 //         {"type": "*生日", "name": "小学生", "year": "2003", "date": "03-02"},
-        {"type": "生日", "name": "小学生", "year": "2003", "date": "03-02"},
-        {"type": "节日", "name": "搭讪纪念日", "year": "2021", "date": "12-31"},
+        {"type": "生日", "name": "张张", "year": "2003", "date": "03-02"},
+        {"type": "节日", "name": "没有了哦搭讪纪念日", "year": "2021", "date": "12-31"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "大哥", "year": "2003", "date": "01-01"},
 //         {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "12-31"},
@@ -101,7 +101,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "RkFtCGfcKBEunWPJb3ZmEmCnRfSHGeZbzERVb73_4ZI",
+      useTemplateId: "	z3dMWHxUu3YW3IFd6M7w0ElHuQIRmtlL7F5CeaM9H1I",
       // 所在省份
       province: "广东",
       // 所在城市
@@ -116,8 +116,8 @@ export const config = {
       festivals: [
 //         注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
 //         {"type": "*生日", "name": "小学生", "year": "2003", "date": "03-02"},
-        {"type": "生日", "name": "小学生", "year": "2003", "date": "03-02"},
-        {"type": "节日", "name": "搭讪纪念日", "year": "2021", "date": "12-31"},
+//         {"type": "生日", "name": "张张", "year": "2003", "date": "03-02"},
+        {"type": "节日", "name": "没有了哦搭讪纪念日", "year": "2021", "date": "12-31"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "大哥", "year": "2003", "date": "01-01"},
 //         {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "12-31"},
@@ -190,7 +190,7 @@ export const config = {
 //         注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
 //         {"type": "*生日", "name": "小学生", "year": "2003", "date": "03-02"},
         {"type": "生日", "name": "小学生", "year": "2003", "date": "03-02"},
-        {"type": "节日", "name": "搭讪纪念日", "year": "2021", "date": "12-31"},
+        {"type": "节日", "name": "没有了哦搭讪纪念日", "year": "2021", "date": "12-31"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "大哥", "year": "2003", "date": "01-01"},
 //         {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "12-31"},
@@ -211,13 +211,13 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "birthday1", date: "2003-01-01"},
-    {"keyword": "birthday2", date: "2003-03-02"},
-    {"keyword": "love_day", date: "2021-12-31"},
+//     {"keyword": "birthday1", date: "2003-01-01"},
+//     {"keyword": "birthday2", date: "2003-03-02"},
+//     {"keyword": "love_day", date: "2021-12-31"},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2022-09-09"},
+//     {"keyword": "marry_day", date: "2022-09-09"},
     // 退伍日
-    {"keyword": "ex_day", date: "2022-09-10"},
+//     {"keyword": "ex_day", date: "2022-09-10"},
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -230,14 +230,14 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+//     {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
-    {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
-    ]},
+//     {"keyword": "lover_prattle", contents: [
+//       "因为太喜欢你，所以看谁都像是情敌。",
+//       "申请成为你爱里的永久居民。",
+//       "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+//       "遇见你，就好像捡到了100斤的运气",
+//     ]},
     // 你可以不断按格式往下增加
     // ...
   ],
