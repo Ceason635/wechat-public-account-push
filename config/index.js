@@ -32,16 +32,16 @@ export const config = {
     // 每日一言
     oneTalk: true,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: true,
     // 毒鸡汤
-    poisonChickenSoup: false,
+    poisonChickenSoup: true,
     // 古诗古文
-    poetry: false,
+    poetry: true,
 
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -51,7 +51,7 @@ export const config = {
 
   // 每日一言的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: "网络",
+  LITERARY_PREFERENCE: "",
   
 
   /**
@@ -65,7 +65,7 @@ export const config = {
       id: "o97vH5rsEP87KaXC7EbmWJoI-RK4",
 //       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "jZ1g4K6std3HQ_1noDhzShkvXR0hGrOSVG8dnezm1kg",
+      useTemplateId: "AwdLMSCi6C3p-6Jh0OXF669KxS2MMsWxhArJIqgYk4Y",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -80,7 +80,7 @@ export const config = {
       festivals: [
 //         注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
 //         {"type": "*生日", "name": "小学生", "year": "2003", "date": "03-02"},
-        {"type": "生日", "name": "张张", "year": "2003", "date": "03-02"},
+        {"type": "生日", "name": "乖乖", "year": "2003", "date": "03-02"},
 //         {"type": "节日", "name": "没有了哦搭讪纪念日", "year": "2021", "date": "12-31"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
 //         {"type": "生日", "name": "大哥", "year": "2003", "date": "01-01"},
@@ -101,7 +101,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "jZ1g4K6std3HQ_1noDhzShkvXR0hGrOSVG8dnezm1kg",
+      useTemplateId: "AwdLMSCi6C3p-6Jh0OXF669KxS2MMsWxhArJIqgYk4Y",
       // 所在省份
       province: "广东",
       // 所在城市
