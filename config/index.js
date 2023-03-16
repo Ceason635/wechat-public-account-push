@@ -60,12 +60,12 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "小学生",
+      name: "张悦瑶",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5rsEP87KaXC7EbmWJoI-RK4",
 //       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "AvEY06i8ajK2fLFyXDP8k7sKMcRscDuQ7L--G_fAhkU",
+      useTemplateId: "jZ1g4K6std3HQ_1noDhzShkvXR0hGrOSVG8dnezm1kg",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -81,9 +81,9 @@ export const config = {
 //         注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
 //         {"type": "*生日", "name": "小学生", "year": "2003", "date": "03-02"},
         {"type": "生日", "name": "张张", "year": "2003", "date": "03-02"},
-        {"type": "节日", "name": "没有了哦搭讪纪念日", "year": "2021", "date": "12-31"},
+//         {"type": "节日", "name": "没有了哦搭讪纪念日", "year": "2021", "date": "12-31"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "大哥", "year": "2003", "date": "01-01"},
+//         {"type": "生日", "name": "大哥", "year": "2003", "date": "01-01"},
 //         {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "12-31"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -97,11 +97,11 @@ export const config = {
       ]
     },{
       // 想要发送的人的名字
-      name: "大哥",
+      name: "陈诒森",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "AvEY06i8ajK2fLFyXDP8k7sKMcRscDuQ7L--G_fAhkU",
+      useTemplateId: "jZ1g4K6std3HQ_1noDhzShkvXR0hGrOSVG8dnezm1kg",
       // 所在省份
       province: "广东",
       // 所在城市
@@ -117,7 +117,7 @@ export const config = {
 //         注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
 //         {"type": "*生日", "name": "小学生", "year": "2003", "date": "03-02"},
 //         {"type": "生日", "name": "张张", "year": "2003", "date": "03-02"},
-        {"type": "节日", "name": "没有了哦搭讪纪念日", "year": "2021", "date": "12-31"},
+//         {"type": "节日", "name": "没有了哦搭讪纪念日", "year": "2021", "date": "12-31"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "大哥", "year": "2003", "date": "01-01"},
 //         {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "12-31"},
@@ -125,7 +125,7 @@ export const config = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2021-12-31"},
+//         {"keyword": "love_day", date: "2021-12-31"},
         // 结婚纪念日
 //         {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
@@ -142,7 +142,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "GJZkRmh3M17k7X0G4FArtA-qBYUqfizC0d05sAMT2so",
+  CALLBACK_TEMPLATE_ID: "0_wewSm4eGgwLeF8SM_GaJPAdgctCBWbruiE7daJsZw",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
