@@ -65,7 +65,7 @@ export const config = {
       id: "o97vH5rsEP87KaXC7EbmWJoI-RK4",
 //       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "AwdLMSCi6C3p-6Jh0OXF669KxS2MMsWxhArJIqgYk4Y",
+      useTemplateId: "m-11g9WjlhIPn6zc6VPyARFDGcJavbp03k4CxezRsFM",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -101,7 +101,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "AwdLMSCi6C3p-6Jh0OXF669KxS2MMsWxhArJIqgYk4Y",
+      useTemplateId: "m-11g9WjlhIPn6zc6VPyARFDGcJavbp03k4CxezRsFM",
       // 所在省份
       province: "广东",
       // 所在城市
