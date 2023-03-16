@@ -32,7 +32,7 @@ export const config = {
     // 每日一言
     oneTalk: true,
     // 土味情话(彩虹屁)
-    earthyLoveWords: true,
+    earthyLoveWords: false,
     // 朋友圈文案
     momentCopyrighting: true,
     // 毒鸡汤
