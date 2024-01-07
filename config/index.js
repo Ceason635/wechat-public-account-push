@@ -169,6 +169,7 @@ export const config = {
     * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }}
     * */
   CUSTOMIZED_DATE_LIST: [
+    
   ],
 
   /** 插槽 */
