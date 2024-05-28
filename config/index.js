@@ -64,11 +64,11 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "bGS1g93_yJMk_ZVpOV6th35xL8cQFdfdfnnJF7Bm8PQ",
+      useTemplateId: "IzY8sk-U8kP6_JpcxDSprf3zGLxN49Zt3gVsVqpf-co",
       // 所在省份
-      province: "",
+      province: "四川",
       // 所在城市
-      city: "",
+      city: "南充",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '01-01',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
