@@ -36,9 +36,9 @@ export const config = {
     // 朋友圈文案
     momentCopyrighting: true,
     // 毒鸡汤
-    poisonChickenSoup: false,
+    poisonChickenSoup: true,
     // 古诗古文
-    poetry: false,
+    poetry: true,
 
     /** 星座运势 */
     horoscope: true,
@@ -64,11 +64,11 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o97vH5ltTMO8ytLDu_SUtfNHW9Uw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "jk5ZCoYKzNtA36gd9mEbZeQpiOoowu_s8GaPGg92SBQ",
+      useTemplateId: "bGS1g93_yJMk_ZVpOV6th35xL8cQFdfdfnnJF7Bm8PQ",
       // 所在省份
-      province: "广东",
+      province: "",
       // 所在城市
-      city: "肇庆",
+      city: "",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '01-01',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -78,6 +78,8 @@ export const config = {
       // openUrl: "http://authserver.cwnu.edu.cn/authserver/login?service=http%3A%2F%2Fehall.cwnu.edu.cn%2Flogin%3Fservice%3Dhttp%3A%2F%2Fehall.cwnu.edu.cn%2Fnew%2Findex.html",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
+        {"type": "*生日", "name": "小妞", "year": "2003", "date": "06-15"},
+        {"type": "生日", "name": "小✌", "year": "2003", "date": "01-01"},
 //         注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
 //         {"type": "*生日", "name": "小学生", "year": "2003", "date": "03-02"},
 //         {"type": "生日", "name": "张张", "year": "2003", "date": "03-02"},
